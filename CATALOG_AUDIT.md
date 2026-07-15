@@ -1,6 +1,6 @@
 # Audit Katalog — awesome-supabase-id
 
-> Terakhir diverifikasi: **2026-07-15** melalui GitHub GraphQL API dan keberadaan README upstream.
+> Keberadaan dan status repo diverifikasi ulang **2026-07-16** melalui GitHub API; angka stars/last push merupakan snapshot **2026-07-15**.
 > Status bukan endorsement keamanan. Audit kode/dependency/izin sebelum deploy.
 
 | Repo | Status | Stars | Last push | Sumber deskripsi |
@@ -19,7 +19,7 @@
 | [jabirdev/nextjs-better-auth](https://github.com/jabirdev/nextjs-better-auth) | `Community` | 105 | 2026-04-24 | README upstream tersedia |
 | [engageintellect/sveltekit-supabase](https://github.com/engageintellect/sveltekit-supabase) | `Community` | 116 | 2024-07-04 | README upstream tersedia |
 | [shwosner/realtime-chat-supabase-react](https://github.com/shwosner/realtime-chat-supabase-react) | `Community` | 795 | 2026-01-25 | README upstream tersedia |
-| [supabase-community/flutter-chat](https://github.com/supabase-community/flutter-chat) | `Official` | 229 | 2024-05-23 | README upstream tersedia |
+| [supabase-community/flutter-chat](https://github.com/supabase-community/flutter-chat) | `Community` | 229 | 2024-05-23 | README upstream tersedia |
 | [arnu515/supabase-e2ee-chat](https://github.com/arnu515/supabase-e2ee-chat) | `Community` | 35 | 2021-12-24 | README upstream tersedia |
 | [supaflare/supaflare](https://github.com/supaflare/supaflare) | `Community` | 233 | 2026-04-11 | README upstream tersedia |
 | [kristianfreeman/supabase-workers-proxy](https://github.com/kristianfreeman/supabase-workers-proxy) | `Community` | 40 | 2021-05-04 | README upstream tersedia |

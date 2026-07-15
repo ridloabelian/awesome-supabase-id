@@ -5,7 +5,7 @@
 <h1 align="center">Kitab Supabase ⚡️ 🇮🇩<br><sub>(Stack Nol Rupiah)</sub></h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=3ECF8E&center=true&vCenter=true&width=600&lines=Postgres+Gratis+Selamanya;Auth+%2B+Realtime+%2B+Storage;Firebase+Alternative+Open-Source;Bangun+SaaS+Modal+Rp+0" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=3ECF8E&center=true&vCenter=true&width=600&lines=Postgres+dengan+Paket+Free;Auth+%2B+Realtime+%2B+Storage;Firebase+Alternative+Open-Source;Validasi+SaaS+Modal+Rp+0" alt="Typing SVG" />
 </p>
 
 Kumpulan *boilerplate*, *starter kit*, template, dan proyek *open-source* terbaik berbasis **Supabase** — platform *backend* open-source (Postgres, Auth, Storage, Realtime, Edge Functions) yang jadi alternatif Firebase.
@@ -19,15 +19,15 @@ Dibangun untuk membantu developer & *indie hacker* Indonesia meluncurkan produk 
 
 </div>
 
-> **Audit:** Terakhir diverifikasi **2026-07-15**. Kuota dan kebijakan dapat berubah; cek [sumber resmi](https://supabase.com/pricing) sebelum implementasi.
+> **Audit:** Terakhir diverifikasi **2026-07-16**. Kuota dan kebijakan dapat berubah; cek [pricing resmi](https://supabase.com/pricing) sebelum implementasi.
 >
 > **Disclaimer:** Proyek komunitas independen. Tidak berafiliasi dengan atau didukung oleh Supabase, Inc. Supabase dan logonya merupakan merek dagang pemiliknya.
 
 > 🗺️ **Bagian dari seri [Stack Nol Rupiah](https://github.com/ridloabelian/awesome-rp0-id)** — peta lengkap bootstrap gratisan Rp 0 untuk indie hacker Indonesia.
 
-> 🔗 **Repo saudara:** Lihat juga [**Kitab Cloudflare**](https://github.com/ridloabelian/awesome-cloudflare-id) (edge/serverless) dan [**Kitab Google**](https://github.com/ridloabelian/awesome-google-free-id) (automasi bisnis). **Kombinasi paling sakti: Cloudflare (frontend/edge) + Supabase (database/auth) = stack SaaS Rp 0 paling populer di kalangan indie hacker.**
+> 🔗 **Seri saudara:** [**Kitab Cloudflare**](https://github.com/ridloabelian/awesome-cloudflare-id) (edge/web) · [**Kitab Google**](https://github.com/ridloabelian/awesome-google-free-id) (automasi bisnis) · [**Kitab Telegram**](https://github.com/ridloabelian/awesome-telegram-infra-id) (komunikasi/notifikasi) · [**Kitab Oracle Cloud**](https://github.com/ridloabelian/awesome-oracle-free-id) (compute/self-hosting). **Supabase melengkapi seri sebagai lapisan Postgres, Auth, Realtime, dan Storage.**
 
-Supabase memberikan yang tidak dimiliki Firebase: **database SQL sungguhan (PostgreSQL)**. Anda dapat Auth, Storage, Realtime subscription, Edge Functions, dan Vector (pgvector untuk AI) — semuanya open-source dan bisa di-*self-host* jika perlu. Free tier-nya sangat cukup untuk memvalidasi ide sampai mendapat pengguna pertama.
+Supabase menempatkan **PostgreSQL** sebagai inti platform, lalu menambahkan Auth, Storage, Realtime, Edge Functions, dan Vector (pgvector untuk AI). Komponen utamanya open-source dan tersedia opsi *self-hosting*. Paket Free cocok untuk validasi ide selama kebutuhan masih berada dalam kuota resmi.
 
 **Kriteria Kurasi:**
 - Berjalan atau berbasis Supabase (cloud free tier atau self-hosted).
@@ -36,7 +36,7 @@ Supabase memberikan yang tidak dimiliki Firebase: **database SQL sungguhan (Post
 - Bermanfaat untuk konteks solopreneur & developer Indonesia.
 
 
-**Status kurasi:** `Official` = dikelola vendor/organisasi resmi · `Community` = proyek komunitas · `Experimental` = contoh/POC, audit sebelum produksi · `Archived` = read-only/tidak aktif. Lihat [audit katalog lengkap](CATALOG_AUDIT.md) (status, stars, last push, dan sumber README upstream; diverifikasi 2026-07-15).
+**Status kurasi:** `Official` = dikelola vendor/organisasi resmi · `Community` = proyek komunitas · `Experimental` = contoh/POC, audit sebelum produksi · `Archived` = read-only/tidak aktif. Lihat [audit katalog lengkap](CATALOG_AUDIT.md) (status, stars, last push, dan sumber README upstream; diverifikasi 2026-07-16).
 
 ---
 
@@ -54,7 +54,7 @@ Acuan umum paket **Free** Supabase. Selalu cek [halaman pricing](https://supabas
 | **Realtime** | 200 koneksi bersamaan, 2 juta pesan/bln | WebSocket untuk fitur live/kolaborasi. |
 | **Vector (pgvector)** | Termasuk dalam DB | Untuk aplikasi AI/RAG & pencarian semantik. |
 
-> ⚠️ **Penting:** Proyek gratis akan **di-*pause* otomatis setelah 1 minggu tidak aktif** (bisa di-restore). Batas 2 proyek aktif untuk akun gratis. Untuk produksi serius, paket Pro mulai $25/bln — tapi untuk validasi & MVP, free tier sudah lebih dari cukup.
+> ⚠️ **Penting:** Saat audit, proyek Free dapat **di-*pause* setelah 1 minggu tidak aktif** dan dibatasi 2 proyek aktif. Restore, harga, kuota, serta perilaku pause dapat berubah; verifikasi di dashboard dan pricing sebelum produksi. Selalu siapkan backup serta migrasi database.
 
 ---
 
@@ -98,7 +98,7 @@ Bukan cuma React — pilihan untuk penggemar Svelte, Vue/Nuxt, dan FastAPI.
 
 | Nama | Deskripsi |
 |------|-----------|
-| [scosman/CMSaasStarter](https://github.com/scosman/CMSaasStarter) ![](https://img.shields.io/github/stars/scosman/CMSaasStarter?style=flat&label=%E2%98%85&color=3ECF8E) | Template SaaS modern berbasis SvelteKit, Tailwind, dan Supabase. Ringan dan sangat lengkap (paling populer di kelasnya). |
+| [scosman/CMSaasStarter](https://github.com/scosman/CMSaasStarter) ![](https://img.shields.io/github/stars/scosman/CMSaasStarter?style=flat&label=%E2%98%85&color=3ECF8E) | Template SaaS berbasis SvelteKit, Tailwind, dan Supabase dengan fitur yang cukup lengkap. |
 | [JavascriptMick/supanuxt-saas](https://github.com/JavascriptMick/supanuxt-saas) ![](https://img.shields.io/github/stars/JavascriptMick/supanuxt-saas?style=flat&label=%E2%98%85&color=3ECF8E) | Boilerplate SaaS untuk Nuxt 3 + Supabase + OAuth + Prisma + tRPC + Stripe. |
 | [AtticusZeller/fastapi_supabase_template](https://github.com/AtticusZeller/fastapi_supabase_template) ![](https://img.shields.io/github/stars/AtticusZeller/fastapi_supabase_template?style=flat&label=%E2%98%85&color=3ECF8E) | Template FastAPI yang terintegrasi dalam dengan Supabase: auth, CRUD Postgres, dan upload file. |
 
@@ -155,11 +155,11 @@ Panel admin siap pakai untuk mengelola data Supabase Anda.
 | [EkiZR/Portofolio_V5](https://github.com/EkiZR/Portofolio_V5) ![](https://img.shields.io/github/stars/EkiZR/Portofolio_V5?style=flat&label=%E2%98%85&color=3ECF8E) | Portfolio pribadi React + Supabase, dilengkapi dashboard admin untuk kelola konten. |
 
 ## 📚 Referensi
-Sumber belajar dan awesome-list resmi.
+Sumber belajar dan kurasi komunitas.
 
 | Nama | Deskripsi |
 |------|-----------|
-| [lyqht/awesome-supabase](https://github.com/lyqht/awesome-supabase) ![](https://img.shields.io/github/stars/lyqht/awesome-supabase?style=flat&label=%E2%98%85&color=3ECF8E) | *Awesome-list* resmi (berbahasa Inggris) berisi starter & sumber daya Supabase. Rujukan utama. |
+| [lyqht/awesome-supabase](https://github.com/lyqht/awesome-supabase) ![](https://img.shields.io/github/stars/lyqht/awesome-supabase?style=flat&label=%E2%98%85&color=3ECF8E) | *Awesome-list* komunitas berbahasa Inggris berisi starter dan sumber daya Supabase. |
 
 ## 📄 Template Siap Pakai
 Cuplikan siap pakai untuk pola paling umum. Jalankan SQL di **SQL Editor** dashboard Supabase, dan JS di aplikasi Anda.
@@ -169,7 +169,7 @@ Cuplikan siap pakai untuk pola paling umum. Jalankan SQL di **SQL Editor** dashb
 -- Buat tabel + aktifkan RLS (WAJIB, ini yang sering dilupakan pemula = data bocor!)
 create table todos (
   id uuid primary key default gen_random_uuid(),
-  user_id uuid references auth.users default auth.uid(),
+  user_id uuid not null references auth.users(id) on delete cascade default auth.uid(),
   task text not null,
   is_done boolean default false,
   created_at timestamptz default now()
@@ -179,7 +179,9 @@ alter table todos enable row level security;
 
 -- Kebijakan: user hanya bisa akses datanya sendiri
 create policy "user kelola todo sendiri" on todos
-  for all using (auth.uid() = user_id);
+  for all
+  using (auth.uid() = user_id)
+  with check (auth.uid() = user_id);
 ```
 
 ### 2. Auth + Query dari JavaScript (supabase-js)
@@ -188,7 +190,7 @@ import { createClient } from '@supabase/supabase-js';
 
 const supabase = createClient(
   'https://xxxx.supabase.co',        // Project URL
-  'PUBLIC_ANON_KEY'                  // Anon key (aman untuk client, dilindungi RLS)
+  'PUBLIC_ANON_KEY'                  // Publishable/anon key; aman diekspos hanya dengan RLS yang benar
 );
 
 // Login via magic link (tanpa password)
@@ -215,17 +217,28 @@ supabase
 
 ### 4. Query dari Cloudflare Workers (Kombinasi Sakti)
 ```javascript
-// Di Cloudflare Worker — Supabase sebagai database, Worker sebagai edge API
+// Di Cloudflare Worker — teruskan JWT user agar RLS tetap berlaku
 import { createClient } from '@supabase/supabase-js';
 
 export default {
   async fetch(request, env) {
-    const supabase = createClient(env.SUPABASE_URL, env.SUPABASE_ANON_KEY);
+    const authorization = request.headers.get('Authorization');
+    if (!authorization?.startsWith('Bearer ')) {
+      return Response.json({ error: 'Unauthorized' }, { status: 401 });
+    }
+
+    const supabase = createClient(env.SUPABASE_URL, env.SUPABASE_ANON_KEY, {
+      global: { headers: { Authorization: authorization } }
+    });
     const { data, error } = await supabase.from('todos').select('*').limit(10);
-    return Response.json(error ? { error } : { data });
+    return Response.json(error ? { error: error.message } : { data }, {
+      status: error ? 400 : 200
+    });
   }
 };
 ```
+
+> 🔐 **Jangan pernah** menaruh `service_role` key di browser, mobile app, repository, atau response API. Key tersebut melewati RLS dan hanya boleh berada di backend tepercaya untuk operasi administratif yang memang diperlukan.
 
 ---
 
