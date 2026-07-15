@@ -19,6 +19,8 @@ Dibangun untuk membantu developer & *indie hacker* Indonesia meluncurkan produk 
 
 </div>
 
+> 🗺️ **Bagian dari seri [Stack Nol Rupiah](https://github.com/ridloabelian/awesome-rp0-id)** — peta lengkap bootstrap gratisan Rp 0 untuk indie hacker Indonesia.
+
 > 🔗 **Repo saudara:** Lihat juga [**Kitab Cloudflare**](https://github.com/ridloabelian/awesome-cloudflare-id) (edge/serverless) dan [**Kitab Google**](https://github.com/ridloabelian/awesome-google-free-id) (automasi bisnis). **Kombinasi paling sakti: Cloudflare (frontend/edge) + Supabase (database/auth) = stack SaaS Rp 0 paling populer di kalangan indie hacker.**
 
 Supabase memberikan yang tidak dimiliki Firebase: **database SQL sungguhan (PostgreSQL)**. Anda dapat Auth, Storage, Realtime subscription, Edge Functions, dan Vector (pgvector untuk AI) — semuanya open-source dan bisa di-*self-host* jika perlu. Free tier-nya sangat cukup untuk memvalidasi ide sampai mendapat pengguna pertama.
