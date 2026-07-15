@@ -19,6 +19,10 @@ Dibangun untuk membantu developer & *indie hacker* Indonesia meluncurkan produk 
 
 </div>
 
+> **Audit:** Terakhir diverifikasi **2026-07-15**. Kuota dan kebijakan dapat berubah; cek [sumber resmi](https://supabase.com/pricing) sebelum implementasi.
+>
+> **Disclaimer:** Proyek komunitas independen. Tidak berafiliasi dengan atau didukung oleh Supabase, Inc. Supabase dan logonya merupakan merek dagang pemiliknya.
+
 > 🗺️ **Bagian dari seri [Stack Nol Rupiah](https://github.com/ridloabelian/awesome-rp0-id)** — peta lengkap bootstrap gratisan Rp 0 untuk indie hacker Indonesia.
 
 > 🔗 **Repo saudara:** Lihat juga [**Kitab Cloudflare**](https://github.com/ridloabelian/awesome-cloudflare-id) (edge/serverless) dan [**Kitab Google**](https://github.com/ridloabelian/awesome-google-free-id) (automasi bisnis). **Kombinasi paling sakti: Cloudflare (frontend/edge) + Supabase (database/auth) = stack SaaS Rp 0 paling populer di kalangan indie hacker.**
@@ -30,6 +34,9 @@ Supabase memberikan yang tidak dimiliki Firebase: **database SQL sungguhan (Post
 - Mempercepat *development* SaaS, aplikasi web, atau mobile.
 - *Open-source* dan idealnya masih aktif di-*maintain*.
 - Bermanfaat untuk konteks solopreneur & developer Indonesia.
+
+
+**Status kurasi:** `Official` = dikelola vendor/organisasi resmi · `Community` = proyek komunitas · `Experimental` = contoh/POC, audit sebelum produksi · `Archived` = read-only/tidak aktif. Lihat [audit katalog lengkap](CATALOG_AUDIT.md) (status, stars, last push, dan sumber README upstream; diverifikasi 2026-07-15).
 
 ---
 
@@ -153,7 +160,6 @@ Sumber belajar dan awesome-list resmi.
 | Nama | Deskripsi |
 |------|-----------|
 | [lyqht/awesome-supabase](https://github.com/lyqht/awesome-supabase) ![](https://img.shields.io/github/stars/lyqht/awesome-supabase?style=flat&label=%E2%98%85&color=3ECF8E) | *Awesome-list* resmi (berbahasa Inggris) berisi starter & sumber daya Supabase. Rujukan utama. |
-| [dmotz/trystero](https://github.com/dmotz/trystero) ![](https://img.shields.io/github/stars/dmotz/trystero?style=flat&label=%E2%98%85&color=3ECF8E) | Bonus: bangun webapp multiplayer instan tanpa server (WebRTC). Pelengkap bagus untuk fitur realtime. |
 
 ## 📄 Template Siap Pakai
 Cuplikan siap pakai untuk pola paling umum. Jalankan SQL di **SQL Editor** dashboard Supabase, dan JS di aplikasi Anda.
