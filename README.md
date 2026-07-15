@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/supabase/supabase/master/apps/www/public/images/logo-dark.svg" alt="Supabase Logo" width="300" />
+<img src="https://raw.githubusercontent.com/supabase/supabase/master/packages/common/assets/images/supabase-logo-wordmark--dark.svg" alt="Supabase Logo" width="300" />
 
 <h1 align="center">Kitab Supabase ⚡️ 🇮🇩<br><sub>(Stack Nol Rupiah)</sub></h1>
 
